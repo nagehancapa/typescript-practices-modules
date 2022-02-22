@@ -1,0 +1,12 @@
+"use strict";
+// // import { add as sum, sub as dif } from "./calc";
+// // import * as calc from "./calc";
+exports.__esModule = true;
+// import add, { sub } from "./calc";
+// // console.log(calc.add(2, 3));
+// // console.log(calc.sub(10, 5));
+// console.log(add(2, 3));
+// console.log(sub(10, 5));
+var calc_1 = require("./calc");
+var calculator = new calc_1.Calculator();
+console.log(calculator.add(2, 3));
